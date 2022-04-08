@@ -7,7 +7,7 @@ gensim.models.ldamulticore.LdaMulticore(corpus=None, num_topics=100, id2word=Non
     gamma_threshold=0.001, random_state=None, minimum_probability=0.01,
     minimum_phi_value=0.01, per_word_topics=False, dtype=<class 'numpy.float32'>)
     
-Parameters
+<big>Parameters</big>
 corpus ({iterable of list of (int, float), scipy.sparse.csc}, optional) – Stream of document vectors or sparse matrix of shape (num_documents, num_terms). If not given, the model is left untrained (presumably because you want to call update() manually).
 
 num_topics (int, optional) – The number of requested latent topics to be extracted from the training corpus.
